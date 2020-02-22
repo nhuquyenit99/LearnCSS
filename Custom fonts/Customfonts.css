@@ -1,0 +1,13 @@
+/* 
+font-family: font1, font2, font3
+font-style: normal|italic
+font-size: 18px
+font-weight: normal|bold|400|900
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+h1{
+    font-family: "Roboto2",sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+}

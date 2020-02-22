@@ -1,0 +1,20 @@
+/* Colors
+1.RGB Hex(#00FF00)
+2.rgb(red,green,blue)
+3.rgba(red,green,blue,alpha)
+red, green, blue: 0-255
+alpha: 0%-100%
+*/
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    color: #888; 
+    /* #888 = #888888 */
+    /* color: rgb(100,100,100)
+    color:rgba(150,100,70,50%) */
+    font-family: sans-serif;
+}
+ 

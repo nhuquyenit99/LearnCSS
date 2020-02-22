@@ -1,0 +1,44 @@
+body{
+    background-color: #EEE;
+    font-family: sans-serif;
+}
+
+.list-item{
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 16px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    background-color: #DDD;
+}
+
+.list-item-transparent {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: #FFF;
+}
+
+.list-item-pattern {
+    background-image: url(./abstract\ pattern.jpg);
+    background-size: 20%; 
+    /* background-repeat: no-repeat; */
+    color: white;
+}
+
+.list-item-image {
+    background-image: url(./background.jpg);
+    height: 100px;
+    color: black;
+    background-size: cover;
+    background-position: center;
+}
+
+.list-item-parallax {
+    background-image: url(./background.jpg);
+    height: 100px;
+    color: black;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
